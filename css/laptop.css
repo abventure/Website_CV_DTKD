@@ -1,7 +1,7 @@
-@media (min-width:1024px){
-.container-cert1{
-  border-right: solid 1px rgb(255, 217, 0);
-}
+@media (min-width: 1024px) {
+  .container-cert1 {
+    border-right: solid 1px rgb(255, 217, 0);
+  }
 }
 * {
   margin: 0px;
@@ -34,7 +34,6 @@ p {
   padding-top: 5px;
 }
 
-
 /*banner*/
 .banner {
   position: relative;
@@ -47,7 +46,6 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 
 /*navigation*/
 #nav-bar {
@@ -71,7 +69,6 @@ a {
   padding: 10px;
 }
 
-
 /*personal image*/
 .pers-img {
   width: 180px;
@@ -84,14 +81,12 @@ a {
   transform: translate(-50%, -50%);
 }
 
-
 /* Mục tiêu nghề nghiệp và thông tin cá nhân*/
 
 #target {
   background-color: rgb(240, 238, 238);
- padding-top: 20px;
- padding-left: 36px;
-
+  padding-top: 20px;
+  padding-left: 36px;
 }
 h1 {
   padding-bottom: 12px;
@@ -143,11 +138,10 @@ li {
   padding-top: 20px;
 }
 
-
 /* Chứng chỉ  giải thưởng*/
-.container-cert3{
+.container-cert3 {
   display: flex;
-  gap:30px;
+  gap: 30px;
 }
 
 /*Dự án*/
@@ -157,12 +151,11 @@ li {
 }
 .project {
   border-left: 1px solid black;
-   border-right: 1px solid black;
-    border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
 }
 .CV {
   border-top: 1px solid black;
-
 }
 .date {
   border-top: 1px solid black;
@@ -175,8 +168,4 @@ table {
   width: 100%;
   font-size: 16px;
   font-family: sans-serif;
-  
 }
-
-
-
