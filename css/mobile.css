@@ -1,0 +1,21 @@
+@media (max-width:768px){
+.navi{
+  display: block;
+
+}
+#text{
+  display: none;
+}
+#nar-bar{
+  display: block;
+}
+.personal{
+  padding-left: 30px;
+}
+.container-project{
+  gap:20px;
+}
+ .date{
+  flex-direction: column;
+ }
+}

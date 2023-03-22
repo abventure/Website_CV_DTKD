@@ -1,0 +1,19 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  #text {
+    display: none;
+  }
+  .container-cert1 {
+    flex-direction: column;
+    border-right: solid 1px rgb(255, 217, 0);
+  }
+  .container-cert2 {
+    flex-direction: column;
+  }
+  .container-cert3 {
+    flex-direction: column;
+    align-items: start;
+  }
+ .date{
+  flex-direction: column;
+ }
+}
