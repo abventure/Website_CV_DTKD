@@ -1,7 +1,9 @@
-@media (min-width: 1024px) {
-  .container-cert1 {
-    border-right: solid 1px rgb(255, 217, 0);
-  }
+@media (min-width:1024px) {
+  
+.border-special{
+  border-right:solid 1px rgb(255, 217, 0) ;
+  padding-right:10px ;
+}
 }
 * {
   margin: 0px;
@@ -31,7 +33,7 @@ body {
 }
 p {
   color: gray;
-  padding-top: 5px;
+  padding-top: 20px;
 }
 
 /*banner*/
@@ -117,13 +119,14 @@ li {
   display: grid;
   grid-template-columns: 75% 25%;
   align-items: center;
+  justify-content: center;
 }
 .icon-hobby {
   padding-top: 20px;
-  display: grid;
-  grid-template-columns: auto auto auto auto;
+  display: flex;
   align-items: center;
 }
+
 .language {
   padding-top: 20px;
 }

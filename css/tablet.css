@@ -4,7 +4,8 @@
   }
   .container-cert1 {
     flex-direction: column;
-    border-right: solid 1px rgb(255, 217, 0);
+    padding-left: 0;
+    padding-right: 0;
   }
   .container-cert2 {
     flex-direction: column;
@@ -13,7 +14,7 @@
     flex-direction: column;
     align-items: start;
   }
- .date{
-  flex-direction: column;
- }
+  .date {
+    flex-direction: column;
+  }
 }
