@@ -1,34 +1,20 @@
-@media (max-width:768px){
-.navi{
-  display: block;
-
-}
-#text{
-  display: none;
-}
-#nar-bar{
-  display: block;
-}
-.personal{
-  padding-left: 30px;
-}
-.container-project{
-  gap:20px;
-}
- .date{
-  flex-direction: column;
- }
+@media (min-width: 768px) and (max-width: 1024px) {
+  #text {
+    display: none;
+  }
   .container-cert1 {
     flex-direction: column;
-  align-items: flex-start;
+    padding-left: 0;
+    padding-right: 0;
   }
   .container-cert2 {
     flex-direction: column;
-    padding-top: 20px;
-    align-items: flex-start;
   }
   .container-cert3 {
     flex-direction: column;
     align-items: start;
+  }
+  .date {
+    flex-direction: column;
   }
 }
